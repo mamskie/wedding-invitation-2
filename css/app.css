@@ -1,0 +1,111 @@
+@import url("common.css");
+@import url("animation.css");
+
+* {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+*::-webkit-scrollbar {
+  display: none !important;
+}
+
+.font-esthetic {
+  font-family: "Sacramento", cursive !important;
+}
+
+.font-arabic {
+  font-family: "Noto Naskh Arabic", serif !important;
+}
+
+.nav-link:hover i {
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in-out;
+  color: #007bff; /* Biru untuk efek hover */
+}
+
+.img-center-crop {
+  width: 14rem;
+  height: 14rem;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.btn-music {
+  bottom: 9vh;
+  right: 2vh;
+  z-index: 1055;
+}
+
+.btn-theme {
+  bottom: 15vh;
+  right: 2vh;
+  z-index: 1055;
+}
+
+.loading-page {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1056;
+  background: linear-gradient(
+    to bottom,
+    #e7f1ff,
+    #b3d9ff
+  ); /* Gradasi biru muda */
+}
+
+.color-theme-white {
+  color: #e7f1ff; /* Biru muda sebagai teks */
+  background: linear-gradient(
+    to right,
+    #0096ff,
+    #66b3ff
+  ); /* Gradasi biru terang */
+}
+
+.color-theme-black {
+  color: #e7f1ff; /* Biru muda untuk teks */
+  background: linear-gradient(
+    to right,
+    #003366,
+    #0056b3
+  ); /* Gradasi biru gelap */
+}
+
+section {
+  margin-top: -0.25rem;
+  margin-bottom: -0.25rem;
+}
+
+.bg-cover-home {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  mask-image: linear-gradient(
+    0.5turn,
+    transparent,
+    #003366 10%,
+    /* Biru tua */ #0056b3 90%,
+    /* Biru gelap */ transparent
+  );
+}
+
+body {
+  background: linear-gradient(
+    to bottom,
+    #f0f8ff,
+    #e7f1ff
+  ); /* Gradasi biru pastel */
+  color: #003366; /* Biru tua untuk teks */
+}
+
+a {
+  color: #007bff; /* Biru terang untuk link */
+}
+
+a:hover {
+  color: #0056b3; /* Biru gelap untuk efek hover link */
+}

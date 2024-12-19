@@ -1,0 +1,53 @@
+* {
+  transition: background-color 500ms ease, color 100ms ease;
+}
+
+html {
+  scroll-behavior: smooth !important;
+  width: 100vw !important;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif !important;
+  padding: 0 !important;
+  overflow-x: hidden !important;
+  background-color: #e7f1ff; /* Biru muda lembut untuk background */
+  color: #003366; /* Biru tua untuk teks */
+}
+
+/* svg {
+  transition: background-color 500ms ease;
+  fill: #007bff17;
+}
+
+svg > path {
+  transition: color 500ms ease;
+  stroke: #0056b3;
+} */
+
+.bg-theme-light {
+  background-color: #f0f8ff; /* Warna biru pastel untuk tema terang */
+  color: #003366; /* Warna biru tua untuk teks */
+}
+
+.bg-theme-dark {
+  background-color: #0056b3; /* Biru gelap untuk tema gelap */
+  color: #e7f1ff; /* Biru muda untuk kontras teks di tema gelap */
+}
+
+a {
+  color: #007bff; /* Biru terang untuk link */
+  transition: color 200ms ease;
+}
+
+a:hover {
+  color: #004080; /* Biru lebih gelap untuk hover */
+}
+
+.bg-wakwak {
+  background-color: #00b7ff;
+}
+
+.text-wakwak {
+  background-color: #0400ff;
+}
