@@ -8,7 +8,7 @@ export const audio = (() => {
         music = document.getElementById('button-music');
 
         audio = new Audio(music.getAttribute('data-url'));
-        audio.currentTime = 39;
+        audio.currentTime = 12;
         audio.autoplay = false;
         audio.muted = false;
         audio.loop = true;
