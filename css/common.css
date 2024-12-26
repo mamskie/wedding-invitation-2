@@ -25,6 +25,17 @@ svg > path {
   stroke: #0056b3;
 } */
 
+/* section.bg-light {
+  background-color: #f0f8ff; 
+  color: #003366; 
+  background-image: url("../assets/images/bg-light.jpg"); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  width: 100%; 
+  height: auto; 
+} */
+
 .bg-theme-light {
   background-color: #f0f8ff; /* Warna biru pastel untuk tema terang */
   color: #003366; /* Warna biru tua untuk teks */
@@ -47,6 +58,16 @@ a:hover {
 .bg-wakwak {
   background-color: #00b7ff;
 }
+
+/* section.bg-wakwak {
+  background-color: #00b7ff;
+  background-image: url("../assets/images/flash.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: auto;
+  height: auto;
+} */
 
 .text-wakwak {
   background-color: #0400ff;
